@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "voxel_red",
+  "title": "Voxel Red Preview",
+  "version": "0.1.0",
+  "author": "notquiteog",
+  "repo": "notquiteog/VoxelRed",
+  "summary": "FireRed HD-2D preview with Battle Art only; companion Gen 3 ports are not yet included.",
+  "base": "firered",
+  "engine": ">=0.2.73 <3.0.0",
+  "seal": "sealed",
+  "shell": "#d83838",
+  "finish": "holo",
+  "mods": [
+    {
+      "id": "BATTLE_ART_VOXEL_FORK",
+      "source": "github",
+      "repo": "notquiteog/DramaticShapeVoxelMod",
+      "version": "1.21.0",
+      "sha256": "b900dbd08ebe5e50ac7777b72e6f1aa3d4a0b8567730c74c4cc99cdcbda0af5f"
+    }
+  ],
+  "load_order": [
+    "BATTLE_ART_VOXEL_FORK"
+  ]
+}
