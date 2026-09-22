@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "notquiteog",
   "repo": "notquiteog/VoxelRed",
-  "summary": "FireRed HD-2D preview with Battle Art only; companion Gen 3 ports are not yet included.",
+  "summary": "FireRed 2.5D preview with Battle Art only; companion Gen 3 ports are not yet included.",
   "base": "firered",
   "engine": ">=0.2.73 <3.0.0",
   "seal": "sealed",
