@@ -1,35 +1,17 @@
-# Voxel Red Preview
+# Voxel Red Preview 0.2.0
 
-A sealed **Pokémon FireRed** cart using **Battle Art 1.21.0**, for
-**Gen1Recomp 0.2.73 or newer**. Download the `.g1rcart` from
-[Releases](https://github.com/notquiteog/VoxelRed/releases), install it from
-the launcher and supply your own supported FireRed game data. No ROM included.
+Bundles Battle Art, Online+, Wilds, Double Battles and Dramatic Ride. Requires Gen1Recomp 0.3.1 or newer. Includes original-art scenery, Oak lab and settings fixes, host-owned visible encounters and updated native multiplayer integration.
 
-This first preview includes **only Battle Art**. Overworld Spawns, Online+,
-Dramatic Sky Ride and Double Battles are not included: their FireRed ports
-and integration checks are unfinished. They remain independent projects.
+Dramatic Ride is included in the five-mod bundle but the engine leaves it inactive on Gen 3: riding is not yet ported. The other four mods target FireRed/LeafGreen. This remains a preview, not five fully functional Gen 3 ports.
 
-Includes native-art plants, reviewed building exteriors, modeled terrain,
-render distance choices and contextual boundaries, home/lab/Mart/Center
-interior dioramas, free cameras and native battles over 3D scenery.
+Install the attached .g1rcart. Your own legally obtained and imported base game is required; no ROM is included.
 
-103 specialty FireRed interior maps retain native presentation. Battle
-Pokémon remain native screen sprites; full depth-positioned battles and
-complete Gamma Emerald parity are unfinished. Native healing/shop/special
-animation fallbacks remain active. This preview does not change FireRed’s
-native battle simulation or add wild doubles or multiplayer.
+## Included versions
 
-The exact version and SHA-256 are pinned in `cart.json`. The cartridge contains
-only its manifest, and downloads the published mod when installed.
+- gen1online-plus 0.6.0
+- overworld_wild_spawns 2.3.0
+- BATTLE_ART_VOXEL_FORK 1.22.0
+- DRAMATIC_SKY_RIDE 0.2.24
+- double_battles 0.10.0
 
-To rebuild with an engine checkout, run:
-
-```sh
-python3 tools/cartkit_firered.py /path/to/gen1recomp/tools/cartkit.py pack . -o voxel_red-0.1.0.g1rcart
-```
-
-The wrapper adds FireRed to older cartkit versions' base list; it changes no
-runtime rules. The packed cartridge was accepted and booted by engine 0.2.73.
-Release QA checked the exact single mod pin, a Center interior, static/first/
-rotating cameras and return to Pallet. This is representative preview QA,
-not an exhaustive FireRed playthrough.
+The manifest pins exact release ZIP hashes. Older releases remain available on GitHub.
