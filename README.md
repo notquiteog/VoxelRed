@@ -21,3 +21,15 @@ native battle simulation or add wild doubles or multiplayer.
 
 The exact version and SHA-256 are pinned in `cart.json`. The cartridge contains
 only its manifest, and downloads the published mod when installed.
+
+To rebuild with an engine checkout, run:
+
+```sh
+python3 tools/cartkit_firered.py /path/to/gen1recomp/tools/cartkit.py pack . -o voxel_red-0.1.0.g1rcart
+```
+
+The wrapper adds FireRed to older cartkit versions' base list; it changes no
+runtime rules. The packed cartridge was accepted and booted by engine 0.2.73.
+Release QA checked the exact single mod pin, a Center interior, static/first/
+rotating cameras and return to Pallet. This is representative preview QA,
+not an exhaustive FireRed playthrough.
