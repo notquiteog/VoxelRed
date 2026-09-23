@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "voxel_red",
   "title": "Voxel Red Preview",
-  "version": "0.4.0-test.1",
+  "version": "0.4.0-test.2",
   "author": "notquiteog",
   "repo": "notquiteog/VoxelRed",
   "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
@@ -33,8 +33,15 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.1",
-      "sha256": "d1594dee48499c3811e5cc2816db447dada26a8e5b7bcb9848aafec2fe3b7afa"
+      "version": "1.23.0-test.2",
+      "sha256": "07ec6467e4939a49b0cd134b3692c6ad050d1364f99a750c64332e09f305248d",
+      "options": {
+        "battleArt": "animated",
+        "frontAnimatedSet": "gen5",
+        "backAnimatedSet": "gen5",
+        "playerView": "back",
+        "duplicateFix": "battle_art"
+      }
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
@@ -49,13 +56,6 @@
       "repo": "notquiteog/double-battles-gen2",
       "version": "0.12.0-test.1",
       "sha256": "23696cbab9203dc96f73aa115cd1b9e7459a8a00018b99b6bb06e4529ee61476"
-    },
-    {
-      "id": "gen3_bw_battle_sprites",
-      "source": "github",
-      "repo": "notquiteog/gen3-bw-battle-sprites",
-      "version": "0.1.0-test.1",
-      "sha256": "07c27639e7d0f80aa03116f1ed942f742de3d18860b8b0feea10f7489d8697ba"
     }
   ],
   "load_order": [
@@ -63,7 +63,6 @@
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
     "DRAMATIC_SKY_RIDE",
-    "double_battles",
-    "gen3_bw_battle_sprites"
+    "double_battles"
   ]
 }
