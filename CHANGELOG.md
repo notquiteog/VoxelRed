@@ -1,3 +1,11 @@
+## 0.9.0 — 2026-10-04
+
+Requires Gen1Recomp 0.3.51 or newer. Updates Battle Art 1.29.0, Wilds 2.5.0, Online 0.9.0, Ride 0.5.0, Doubles 0.13.0 and Skies 1.14.0. Other existing pins and options remain unchanged.
+
+Includes modeled roof/window details, Center/Mart furniture refinement, corrected Gen3 far-side battle sizing, upstream Battle Art 1.11.1 and native Emerald companion adapters. Existing Gen1/2 world-space battle actors remain unchanged. Gen3 actors retain native animation composition; full camera parity remains unfinished.
+
+This release includes separate **FireRed**, **LeafGreen** and **Emerald** carts. Import the matching user-owned game ROM first. Emerald scenery is an **Oldale-area preview**, not finished Hoenn coverage. Two Emerald clients reached single/double command screens and trade selection with synchronized riding; complete battle outcomes and completed trade exchange are not yet verified.
+
 ## 0.8.9 — 2026-09-26
 
 Pins Battle Art 1.28.9.

@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "id": "voxel_red",
-  "title": "Voxel Red Preview",
+  "id": "voxel_leafgreen",
+  "title": "Voxel Leaf Green Preview",
   "version": "0.9.0",
   "author": "notquiteog",
   "repo": "notquiteog/VoxelRed",
-  "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
-  "base": "firered",
+  "summary": "Native-art 3D scenery preview, riding, shared wild Pokemon, chat, native battles and trading.",
+  "base": "leafgreen",
   "engine": ">=0.3.51 <3.0.0",
   "seal": "sealed",
-  "shell": "#d83838",
+  "shell": "#459544",
   "finish": "holo",
   "mods": [
     {
